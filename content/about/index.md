@@ -4,16 +4,13 @@ title: Hi, I’m Lakhan Samani
 
 Senior Software Engineer at Appbase; MS Information Technology; React and opensource Junkie
 
-Links: [Skills](#skills) - [Work](#work) - [Projects](#projects) - [Resume](https://docs.google.com/document/d/1TpTbeph5pB7qHus4Z9ufv6XSh2eCol-z4OZortu4hFU/edit?usp=sharing){:target="\_blank"}-[Readings](https://docs.google.com/spreadsheets/d/15oLplKRuoOaajQjhbFZFPK40vVyZ2E3r-Z611kee0lc/edit?usp=sharing){:target="\_blank"}- [Connect](#connect)
-<br/>
+Links: [Skills](#skills) - [Work](#work) - [Projects](#projects) - [Resume](https://docs.google.com/document/d/1TpTbeph5pB7qHus4Z9ufv6XSh2eCol-z4OZortu4hFU/edit?usp=sharing)
 
 # Skills
 
 ---
 
 `c`,`c++`, `java`, `php`, `HTML5`, `CSS3`, `javascript`, `jquery`, `SQL`, `MySQL`, `AngularJS`, `node.js`, `CakePHP`, `mongodb`, `UML`, `ExpressJS`, `MEAN stack`, `ReactJS`, `Redux`,`Bootstrap`,`Zurb Foundation`,`AWS`, `git`, `Google appengine`, `ndb datastore`, `python`, `Big Query`, `Chrome Extension Development`, `TypeScript`, `GraphQL`
-
-<br/>
 
 # Work
 
@@ -68,28 +65,28 @@ Actonate is web and software development company located in Vadodara, Gujarat. I
 
 ---
 
-- [Transport-It](http://transportit.herokuapp.com){:target="\_blank"} - Mobile application for booking trucks in near by area
-- [evidyalay.net](https://github.com/E-Vidyalay){:target="\_blank"} - E-learning platform
-- [Vhkl](http://www.vehkl.com/){:target="\_blank"} - Car management application and web app
-- [Dhrron Consultancy](http://www.dhrronconsultancy.com/){:target="\_blank"}- Fees management system
+- [Transport-It](http://transportit.herokuapp.com) - Mobile application for booking trucks in near by area
+- [evidyalay.net](https://github.com/E-Vidyalay) - E-learning platform
+- [Vhkl](http://www.vehkl.com/) - Car management application and web app
+- [Dhrron Consultancy](http://www.dhrronconsultancy.com/)- Fees management system
 - Production Management System, Kalyan Plastics
-- [Santmegh Education Online Examination System](http://santmegheducation.com/test/){:target="\_blank"}
-- [CakeStudio](http://cakestudio.in){:target="\_blank"} - E-commerce for cakes
-- [ApnaDemnand](http://apnademand.com){:target="\_blank"} - E-commerce for mobile covers
+- [Santmegh Education Online Examination System](http://santmegheducation.com/test/)
+- [CakeStudio](http://cakestudio.in) - E-commerce for cakes
+- [ApnaDemnand](http://apnademand.com) - E-commerce for mobile covers
 - Client Resource Management System - Actonexus, Actonate
 - CMS - Computer Application Student Association
 - CASA accounting application
-- [Blogger](http://appbase-blogger.herokuapp.com){:target="\_blank"} - Live blogging platform
-- [Krish Computer Life Services](http://krishcomputer.com/){:target="\_blank"}
-- [Encore Stores](http://encorestores.com/){:target="\_blank"} - Mobile application with dynamic website for deals of encore stores
+- [Blogger](http://appbase-blogger.herokuapp.com) - Live blogging platform
+- [Krish Computer Life Services](http://krishcomputer.com/)
+- [Encore Stores](http://encorestores.com/) - Mobile application with dynamic website for deals of encore stores
 - [Clue up](https://www.clueup.in) - Online education platform
 
 **Static Sites**
 
-- [ABM investment](http://abminvest.com/){:target="\_blank"}
+- [ABM investment](http://abminvest.com/)
 - Cyberia’13
-- [Learn labs](http://learnlabs.in/){:target="\_blank"}
-- [Cenzer](http://cenzer.com/){:target="\_blank"}
+- [Learn labs](http://learnlabs.in/)
+- [Cenzer](http://cenzer.com/)
 
 **University Projects**
 
