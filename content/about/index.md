@@ -4,7 +4,7 @@ title: Hi, I’m Lakhan Samani
 
 Senior Software Engineer at Appbase; MS Information Technology; React and opensource Junkie
 
-Links:- [Resume](https://docs.google.com/document/d/1TpTbeph5pB7qHus4Z9ufv6XSh2eCol-z4OZortu4hFU/edit?usp=sharing)
+Links:- [Resume](https://docs.google.com/document/d/1GEtyMOdMvBKamyaP7DYScTY3itufBaQQ2gJMKSu0XZ4/edit?usp=sharing)
 
 # Skills
 
