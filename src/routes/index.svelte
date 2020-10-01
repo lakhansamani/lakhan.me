@@ -1,46 +1,13 @@
-<style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
 
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
 
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
-</style>
-
-<svelte:head>
-	<title>Sapper project template</title>
-</svelte:head>
-
-<h1>Great success!</h1>
-
-<figure>
-	<img alt='Success Kid' src='successkid.jpg'>
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<div class="flex justify-center lg:justify-between align-middle flex-wrap-reverse lg:flex-no-wrap">
+	<div class="flex-initial lg:pr-10 lg:w-2/3">
+		<div class="text-center lg:text-left italic text-4xl font-bold my-10 text-yellow-500">Hey! I'am Lakhan Samani</div>
+		<p class="text-center lg:text-justify text-gray-300 text-xl">
+			I'm a software engineer based in Vadodara, India 🇮🇳. With a knack for problem-solving, I help build solutions <b>and</b> I love contributing to open source. I am an independent contractor helping various organizations build their products.
+		</p>
+	</div>
+	<div class="flex-initial">
+		<img src="images/profile.jpg" alt="profile" class="rounded-full lg:rounded-md h-64 my-10"/>
+	</div>
+</div>

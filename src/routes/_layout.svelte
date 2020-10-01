@@ -5,18 +5,15 @@
 </script>
 
 <style>
-	main {
-		position: relative;
-		max-width: 56em;
-		background-color: white;
-		padding: 2em;
-		margin: 0 auto;
-		box-sizing: border-box;
+	.content {
+		max-width: 80ch;
+		margin: auto;
+		padding: 0 1rem;
 	}
 </style>
 
-<Nav {segment}/>
+<!-- <Nav {segment}/> -->
 
-<main>
+<div class="content">
 	<slot></slot>
-</main>
+</div>
