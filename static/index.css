@@ -18799,6 +18799,7 @@ html {
   --bg-color: #0e182a;
   --app-text: rgba(226, 232, 240);
   --scroll-bar: #a7a7a7;
+  --text-link: #ecc94b;
 }
 
 body {
@@ -18838,6 +18839,11 @@ body::-webkit-scrollbar-button {
   max-width: 80ch;
   margin: auto;
   padding: 0 1rem;
+}
+
+.text-link {
+  color: var(--text-link);
+  text-decoration: underline;
 }
 
 @media (min-width: 640px) {

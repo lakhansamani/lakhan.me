@@ -20,8 +20,8 @@
 			<div class="text-center lg:text-left text-2xl lg:text-4xl font-bold">Hello World 👋</div>
 			<div class="text-center lg:text-left text-4xl font-bold text-yellow-500">I'm Lakhan Samani</div>
 		</div>
-		<p class="text-center lg:text-justify text-xl">
-			I'm a software engineer based in Vadodara, India 🇮🇳. With a knack for problem-solving, I help build solutions <b>and</b> I love contributing to open source. I'm an independent contractor helping various organizations build their products.
+		<p class="text-center lg:text-left text-xl">
+			I'm a software engineer based in Vadodara, India 🇮🇳. With a knack for problem-solving, I help build solutions <b>and</b> I love contributing to <a href="https://github.com/lakhansamani" class="text-link" target="_blank" rel="noopenner">open source</a>. I'm an independent contractor helping various organizations build their products.
 		</p>
 	</div>
 	<div class="flex-initial">
