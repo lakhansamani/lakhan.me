@@ -2,14 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  --line-length: 69ch;
+  --bg-color: #0e182a;
+  --app-text: rgba(226, 232, 240);
+  --scroll-bar: #a7a7a7;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: var(--bg-color);
+  color: var(--app-text);
+
+  /* for firefox */
+  scrollbar-color: var(--scroll-bar) transparent;
 }
 
-html {
-  --line-length: 69ch;
-  --bg-color: #1d1f21;
-  --text-color: #ececec;
+/* for browsers supporting webkit */
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--scroll-bar);
+  border-radius: 8px;
+}
+
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
+.bg-app {
+  background-color: var(--bg-color);
 }

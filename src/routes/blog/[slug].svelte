@@ -54,7 +54,7 @@
 </style>
 
 <svelte:head>
-	<title>{post.title}</title>
+	<title>{post.title} | lakhan.me</title>
 </svelte:head>
 
 <h1>{post.title}</h1>

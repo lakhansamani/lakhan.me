@@ -10,10 +10,15 @@
 		margin: auto;
 		padding: 0 1rem;
 	}
+	.content-container {
+		padding-top: 70px;
+	}
 </style>
 
-<!-- <Nav {segment}/> -->
 
 <div class="content">
-	<slot></slot>
+	<Nav {segment}/>
+	<div class="content-container">
+		<slot></slot>
+	</div>
 </div>

@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "lakhan-wesbite",
+  "description": "lakhan's website",
   "version": "0.0.1",
   "scripts": {
     "dev": "run-p start:dev watch:css",
