@@ -1,24 +1,22 @@
 <script>
 	import Nav from '../components/Nav.svelte';
+	import Footer from '../components/Footer.svelte';
 
 	export let segment;
 </script>
 
 <style>
 	.content {
-		max-width: 80ch;
-		margin: auto;
-		padding: 0 1rem;
-	}
-	.content-container {
-		padding-top: 70px;
+		padding: 70px 0;
 	}
 </style>
 
 
-<div class="content">
+<div class="app-container">
 	<Nav {segment}/>
-	<div class="content-container">
+	<div class="content">
 		<slot></slot>
 	</div>
 </div>
+
+<Footer />

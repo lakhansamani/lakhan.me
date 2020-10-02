@@ -41,3 +41,9 @@ body::-webkit-scrollbar-button {
 .bg-app {
   background-color: var(--bg-color);
 }
+
+.app-container {
+  max-width: 80ch;
+  margin: auto;
+  padding: 0 1rem;
+}

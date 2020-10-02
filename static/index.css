@@ -18834,6 +18834,12 @@ body::-webkit-scrollbar-button {
   background-color: var(--bg-color);
 }
 
+.app-container {
+  max-width: 80ch;
+  margin: auto;
+  padding: 0 1rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
