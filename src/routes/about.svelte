@@ -15,9 +15,13 @@
 
 <h1 class="text-center text-4xl lg:text-5xl font-bold text-yellow-500 mb-8">About Lakhan</h1>
 
-<div class="text-xl">
+<div class="text-l lg:text-xl">
 	<p class="mb-10">
-		I am a Software Engineer with a love for solving problems 😍. I believe <a href="https://en.wikipedia.org/wiki/Programming_language" target="_blank" rel="noopener" class="text-link">programming languages</a> are the syntax that can help you communicate with digital systems (computer machine/web/mobile). Languages can come and go, but the thing that will remain is your ability to solve problems. At the same time, it is very important to keep yourself updated with new tools/technologies because that will give more power to solve the problems more efficiently. I have a Masters degree in Information and Technology from <a href="https://en.wikipedia.org/wiki/Programming_language" target="_blank" rel="noopener" class="text-link">Dhirubhai Ambani Institute of Information and Technology</a>. But this doesn't change the fact, that I enjoy learning new tools and technologies and keep improving myself. I try to learn and share my learning through this website.
+		I am a Software Engineer with a love for solving problems 😍. I believe <a href="https://en.wikipedia.org/wiki/Programming_language" target="_blank" rel="noopener" class="text-link">programming languages</a> are the syntax that can help you communicate with digital systems (computer machine/web/mobile). Languages can come and go, but the thing that will remain is your ability to solve problems. At the same time, it is very important to keep yourself updated with new tools/technologies because that will give more power to solve the problems more efficiently.
+	</p>
+
+	<p class="mb-10">
+		I have a Masters degree in Information and Technology from <a href="https://en.wikipedia.org/wiki/Programming_language" target="_blank" rel="noopener" class="text-link">Dhirubhai Ambani Institute of Information and Technology</a>. But this doesn't change the fact, that I enjoy learning new tools and technologies and keep improving myself. I try to learn and share my learning through this website.
 	</p>
 
 	<p class="mb-10">
