@@ -57,25 +57,25 @@
 	</div>
 
 	<h3 class="mb-3 text-2xl font-bold">Projects</h3>
-	<div class="mb-10">
+	<div class="mb-10 pl-5">
 		<ul class="list-disc">
-			<li class="mb-5"><a href="https://github.com/appbaseio/dejavu" target="_blank" rel="noopener" class="text-link">Dejavu</a> an open-source tool to easily view/access and perform various operations on Elasticsearch data.</li>
+			<li class="mb-5"><a href="https://github.com/appbaseio/dejavu" target="_blank" rel="noopener" class="text-link">Dejavu</a>: An open-source tool to easily view/access and perform various operations on Elasticsearch data.</li>
 
-			<li class="mb-5"><a href="https://github.com/appbaseio/arc" target="_blank" rel="noopener" class="text-link">Arc</a> a reverse proxy to Elasticsearch which gives search relevancy, analytics, and security out of the box.</li>
+			<li class="mb-5"><a href="https://github.com/appbaseio/arc" target="_blank" rel="noopener" class="text-link">Arc</a>: A reverse proxy to Elasticsearch which gives search relevancy, analytics, and security out of the box.</li>
 
-			<li class="mb-5"><a href="https://github.com/appbaseio/dashboard" target="_blank" rel="noopener" class="text-link">Appbase.io dashboard</a> which allows user to provision Elasticsearch cluster, deploy Arc and manage various tasks with respect to search. Here I have also developed backend APIs which will allow user to provision clusters and perform various operations securely.</li>
+			<li class="mb-5"><a href="https://github.com/appbaseio/dashboard" target="_blank" rel="noopener" class="text-link">Appbase.io dashboard</a>: Allows user to provision Elasticsearch cluster, deploy Arc and manage various tasks with respect to search. Here I have also developed backend APIs which will allow user to provision clusters and perform various operations securely.</li>
 
-			<li class="mb-5"><a href="https://github.com/appbaseio/appbaseio-heroku" target="_blank" rel="noopener" class="text-link">Appbase.io Heroku Deployment</a> Allows you to deploy Appbase.io services in one click on <a href="https://www.heroku.com/" target="_blank" rel="noopener" class="text-link">Heroku</a></li>
+			<li class="mb-5"><a href="https://github.com/appbaseio/appbaseio-heroku" target="_blank" rel="noopener" class="text-link">Appbase.io Heroku Deployment</a>: Allows you to deploy Appbase.io services in one click on <a href="https://www.heroku.com/" target="_blank" rel="noopener" class="text-link">Heroku</a></li>
 
-			<li class="mb-5"><a href="https://github.com/appbaseio/arc-dockerized" target="_blank" rel="noopener" class="text-link">Docker deployment for Appbase.io</a> Allows you to deploy Appbase.io services on docker container</li>
+			<li class="mb-5"><a href="https://github.com/appbaseio/arc-dockerized" target="_blank" rel="noopener" class="text-link">Docker deployment for Appbase.io</a>: Allows you to deploy Appbase.io services on docker container</li>
 
-			<li class="mb-5"><a href="https://github.com/appbaseio/arc-k8s" target="_blank" rel="noopener" class="text-link">Kubernetes deployment for Appbase.ip</a> Allows you to deploy Appbase.io services with Kubernetes orchestration</li>
+			<li class="mb-5"><a href="https://github.com/appbaseio/arc-k8s" target="_blank" rel="noopener" class="text-link">Kubernetes deployment for Appbase.ip</a>: Allows you to deploy Appbase.io services with Kubernetes orchestration</li>
 
-			<li class="mb-5"><a href="https://github.com/appbaseio/arc-k8s" target="_blank" rel="noopener" class="text-link">ReactiveSearch:</a> UI components library for Elasticsearch: Available for React, Vue and React Native</li>
+			<li class="mb-5"><a href="https://github.com/appbaseio/reactivesearch" target="_blank" rel="noopener" class="text-link">ReactiveSearch</a>: UI components library for Elasticsearch: Available for React, Vue and React Native</li>
 
-			<li class="mb-5"><a href="https://importer.appbase.io/" target="_blank" rel="noopener" class="text-link">Importer</a> GUI for importing data from different sources into Elasticsearch</li>
+			<li class="mb-5"><a href="https://importer.appbase.io/" target="_blank" rel="noopener" class="text-link">Importer</a>: GUI for importing data from different sources into Elasticsearch</li>
 
-			<li class="mb-5"><a href="https://github.com/appbaseio/abc" target="_blank" rel="noopener" class="text-link">ABC</a> CLI for importing data from different sources into Elasticsearch</li>
+			<li class="mb-5"><a href="https://github.com/appbaseio/abc" target="_blank" rel="noopener" class="text-link">ABC</a>: CLI for importing data from different sources into Elasticsearch</li>
 
 			<li class="mb-5"><a href="https://github.com/lakhansamani/babel-plugin-reduce-with-operator" target="_blank" rel="noopener" class="text-link">babel-plugin-reduce-with-operator</a>: Babel plugin to reduce an array with just passing operator without writing any callback. This is just an experiment plugin developed while I was learning <a href="https://en.wikipedia.org/wiki/Abstract_syntax_tree" target="_blank" rel="noopener" class="text-link">AST</a></li>
 
@@ -87,7 +87,7 @@
 
 			<li class="mb-5"><a href="https://play.google.com/store/apps/details?id=org.contentment.family&hl=en" target="_blank" rel="noopener" class="text-link">The Contentment Foundation mobile application</a>: A mobile application that helps in transforming the wellbeing of your family. This application is available on <a href="https://apps.apple.com/us/app/contentment-families/id1513321262" target="_blank" rel="noopener" class="text-link">ios</a> and <a href="https://apps.apple.com/us/app/contentment-families/id1513321262" target="_blank" rel="noopener" class="text-link">android</a></li>
 
-			<li class="mb-5"><a href=" https://wotnot.io/" target="_blank" rel="noopener" class="text-link">Wotnot Chat Bot:</a>A chat bot widget built using ReactJS</li>
+			<li class="mb-5"><a href=" https://wotnot.io/" target="_blank" rel="noopener" class="text-link">Wotnot Chat Bot</a>: A chat bot widget built using ReactJS</li>
 
 		</ul>
 	</div>
