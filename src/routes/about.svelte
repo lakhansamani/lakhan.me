@@ -26,7 +26,7 @@
 
 	<h3 class="mb-3 text-2xl font-bold">What I'm Doing now?</h3>
 	<p class="mb-10">
-		I am currently working as an independent contractor for <a href="https://appbase.io/"  target="_blank" rel="noopener" class="text-link">Appbase.io</a> and <a href="https://www.contentment.org/" target="_blank" rel="noopener" class="text-link"> The Contentment Foundation</a>. In the free time I write, contribute to opensource project and collaborate with my friend Yash Shah and Nikhil Varma on interesting projects. Also I have recorded a video course for building an Airbnb clone using React and ElasticSearch.
+		I am currently working as an independent contractor for <a href="https://appbase.io/"  target="_blank" rel="noopener" class="text-link">Appbase.io</a> and <a href="https://www.contentment.org/" target="_blank" rel="noopener" class="text-link"> The Contentment Foundation</a>. In the free time I write, contribute to opensource project and collaborate with my friend <a href="https://github.com/jyash97" target="_blank" rel="noopener" class="text-link">Yash Shah</a> and <a href="https://github.com/nikhil-varma" target="_blank" rel="noopener" class="text-link">Nikhil Varma</a> on interesting projects. Also I have recorded a video course for building an Airbnb clone using React and ElasticSearch.
 	</p>
 
 	<h3 class="mb-3 text-2xl font-bold">My Skills</h3>
