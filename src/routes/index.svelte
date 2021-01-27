@@ -21,7 +21,7 @@
 			<div class="text-center lg:text-left text-4xl font-bold text-yellow-500">I'm Lakhan Samani</div>
 		</div>
 		<p class="text-center lg:text-left text-xl">
-			I'm a software engineer based in Vadodara, India 🇮🇳. With a knack for problem-solving, I help build solutions <b>and</b> I love contributing to <a href="https://github.com/lakhansamani" class="text-link" target="_blank" rel="noopenner">open source</a>. I'm an independent contractor helping various organizations build their products.
+			I'm a software engineer based in Vadodara, India 🇮🇳. I love contributing to <a href="https://github.com/lakhansamani" class="text-link" target="_blank" rel="noopenner">open source</a>. I'm an independent contractor helping various organizations build their products.
 		</p>
 	</div>
 	<div class="flex-initial">
