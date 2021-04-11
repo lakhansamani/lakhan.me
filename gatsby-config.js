@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `lakhan.me: Software | Web | Mobile Development`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Lakhan Samani`,
+      summary: `Software Engineer from India. Independent contractor and an open source developer`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Welcome to the Personal Internet Domicile of Lakhan Samani`,
+    siteUrl: `https://lakhan.me/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `lakhansamani`,
     },
   },
   plugins: [
@@ -18,6 +18,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/notes`,
+        name: `notes`,
       },
     },
     {
@@ -51,12 +58,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-179539758-1`,
+      },
+    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {

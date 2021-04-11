@@ -5,8 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const BlogIndex = ({ data, location }) => {
-  console.log({ data })
+const NotesIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
@@ -16,7 +15,7 @@ const BlogIndex = ({ data, location }) => {
         <SEO title="All posts" />
         <Bio />
         <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
+          No posts found. Add markdown posts to "content/notes" (or the
           directory you specified for the "gatsby-source-filesystem" plugin in
           gatsby-config.js).
         </p>
@@ -64,7 +63,7 @@ const BlogIndex = ({ data, location }) => {
   )
 }
 
-export default BlogIndex
+export default NotesIndex
 
 export const pageQuery = graphql`
   query {
@@ -75,7 +74,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fileAbsolutePath: { regex: "//content/blog/" } }
+      filter: { fileAbsolutePath: { regex: "//content/notes/" } }
     ) {
       nodes {
         excerpt
