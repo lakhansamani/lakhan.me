@@ -49,6 +49,7 @@ const Bio = () => {
           <a
             href={`https://twitter.com/${social?.twitter || ``}`}
             target="_blank"
+            rel="noreferrer"
           >
             You should follow me on Twitter
           </a>
