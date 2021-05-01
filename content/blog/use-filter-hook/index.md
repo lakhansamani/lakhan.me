@@ -37,9 +37,9 @@ I, along with my friend [Yash Joshi](https://twitter.com/jyash97) developed a re
   import from './data.json';
 
 
-  /////////////////////////////////////////
-  // handle this using the state in ur app
-  ////////////////////////////////////////
+  ///////////////////////////////////////////
+  // handle this using the state in your app
+  //////////////////////////////////////////
 
   const searchData = {
     query: '',
