@@ -1,11 +1,11 @@
 ---
 title: useFilter Hook
-date: "2021-04-29T22:40:32.169Z"
+date: "2021-05-01T22:40:32.169Z"
 description: A React hook to filter large amount of data using  Web Worker.
 tags: react, hook, webworker, filter, data
 ---
 
-There are times when we need to process and filter data in frontend. Writing the search and filter logic can be an overhead and repeating task. With the help of `useFilter` hook you don't need to write the filter/search logic.
+There are times when we need to process and filter data in frontend. Writing the search and filter logic can be an overhead and repeating task. With the help of [`useFilter`](https://github.com/promise-learning/useFilter) hook you don't need to write the filter/search logic.
 
 Also, while dealing with large amount of data, it often takes up lot memory and keeps the main thread block till the filtering process is completed. This results into bad user experience. In order to keep the main thread free and run the web application without any glitches we can leverage the use of [Web Worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) which runs on a separate thread and can share the messages with main thread.
 
