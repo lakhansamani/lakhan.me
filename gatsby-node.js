@@ -17,6 +17,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         ) {
           nodes {
             id
+            fileAbsolutePath
             fields {
               slug
             }
@@ -36,14 +37,54 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const posts = result.data.allMarkdownRemark.nodes
 
+  const categories = posts.reduce(
+    (acc, item) => {
+      if (item.fileAbsolutePath.includes("/blog/")) {
+        return {
+          ...acc,
+          blog: [...acc.blog, item],
+        }
+      }
+
+      return {
+        ...acc,
+        notes: [...acc.notes, item],
+      }
+    },
+    { blog: [], notes: [] }
+  )
+
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
   // `context` is available in the template as a prop and as a variable in GraphQL
 
-  if (posts.length > 0) {
-    posts.forEach((post, index) => {
-      const previousPostId = index === 0 ? null : posts[index - 1].id
-      const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
+  if (categories.blog.length > 0) {
+    categories.blog.forEach((post, index) => {
+      const previousPostId = index === 0 ? null : categories.blog[index - 1].id
+      const nextPostId =
+        index === categories.blog.length - 1
+          ? null
+          : categories.blog[index + 1].id
+
+      createPage({
+        path: post.fields.slug,
+        component: blogPost,
+        context: {
+          id: post.id,
+          previousPostId,
+          nextPostId,
+        },
+      })
+    })
+  }
+
+  if (categories.notes.length > 0) {
+    categories.notes.forEach((post, index) => {
+      const previousPostId = index === 0 ? null : categories.notes[index - 1].id
+      const nextPostId =
+        index === categories.notes.length - 1
+          ? null
+          : categories.notes[index + 1].id
 
       createPage({
         path: post.fields.slug,
