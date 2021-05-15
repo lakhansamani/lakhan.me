@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `lakhan.me: Software | Web | Mobile Development`,
+    title: `Lakhan Samani | Software Engineer`,
     author: {
       name: `Lakhan Samani`,
       summary: `Software Engineer from India. Independent contractor and an open source developer`,
@@ -88,7 +88,7 @@ module.exports = {
                   date: node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
-                  custom_elements: [{ 'content:encoded': node.html }],
+                  custom_elements: [{ "content:encoded": node.html }],
                 })
               })
             },
@@ -111,7 +111,7 @@ module.exports = {
                 }
               }
             `,
-            output: '/rss.xml',
+            output: "/rss.xml",
           },
         ],
       },

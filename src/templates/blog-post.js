@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -29,10 +28,6 @@ const BlogPostTemplate = ({ data, location }) => {
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
-        <hr />
-        <footer>
-          <Bio />
-        </footer>
       </article>
       <nav className="blog-post-nav">
         <ul
@@ -60,6 +55,27 @@ const BlogPostTemplate = ({ data, location }) => {
           </li>
         </ul>
       </nav>
+      <hr />
+      <footer>
+        <p>
+          You can know more about my work by following me on{" "}
+          <a
+            href={`https://twitter.com/lakhansamani`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Twitter
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://github.com/lakhansamani"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+        </p>
+      </footer>
     </Layout>
   )
 }

@@ -37,24 +37,32 @@ const Bio = () => {
         layout="fixed"
         formats={["AUTO", "WEBP", "AVIF"]}
         src="../images/profile.jpg"
-        width={50}
-        height={50}
+        width={100}
+        height={100}
         quality={95}
         alt="Profile picture"
       />
-      {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a
-            href={`https://twitter.com/${social?.twitter || ``}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            You should follow me on Twitter
-          </a>
-        </p>
-      )}
+      <h1>Hi 👋 I'm {author.name && author.name}</h1>
+      <p>
+        Passionate about building products and tools to automate workflows. I am
+        independent Software Developer and Consultant based in India. You can
+        know more about my work by following me on{" "}
+        <a
+          href={`https://twitter.com/${social?.twitter || ``}`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Twitter
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://github.com/lakhansamani"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>
+      </p>
     </div>
   )
 }
