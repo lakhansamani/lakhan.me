@@ -297,6 +297,7 @@ a:focus {
 }
 
 .bio h1 {
+  text-align: center;
   margin-bottom: var(--spacing-1);
   margin-top: var(--spacing-1);
 }
