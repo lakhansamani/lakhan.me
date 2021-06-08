@@ -1,4 +1,4 @@
-import "typeface-poppins"
+import "typeface-inter"
 // normalize CSS across browsers
 import "./src/normalize.css"
 // custom CSS styles
