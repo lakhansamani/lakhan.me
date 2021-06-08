@@ -1,5 +1,5 @@
 ---
-title: useFilter Hook
+title: React useFilter Hook
 date: "2021-05-01T22:40:32.169Z"
 description: A React hook to filter large amount of data using  Web Worker.
 tags: react, hook, webworker, filter, data
