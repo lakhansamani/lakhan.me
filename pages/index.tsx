@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { format } from 'date-fns';
 
 import Layout from '../components/Layout';
-import { getAllPosts } from '../utils/posts';
+import { getAllPosts } from '../lib/posts';
 import Post from '../types/post';
 
 type Props = {
@@ -54,7 +54,7 @@ const IndexPage = ({ posts }: Props) => {
       <hr />
       <ul style={{ padding: 0 }}>
         {posts.map((post) => (
-          <li className="post">
+          <li className="post" key={post.slug}>
             <Link href={`/blog/${post.slug}`}>{post.title}</Link>
             <p>{post.excerpt}</p>
             <p className="meta">{format(new Date(post.date), 'MMMM dd, yy')}</p>

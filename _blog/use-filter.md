@@ -2,7 +2,7 @@
 title: React useFilter Hook
 date: "2021-05-01T22:40:32.169Z"
 excerpt: A React hook to filter large amount of data using  Web Worker. A perfomant way to filter data with inbuilt filter & search options.
-tags: react, hook, webworker, filter, data
+tags: react,hook,webworker,filter,data
 author:
   name: Lakhan Samani
   picture: '/images/profile.jpg'

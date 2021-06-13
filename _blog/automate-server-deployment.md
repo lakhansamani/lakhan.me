@@ -2,7 +2,7 @@
 title: Run server as systemd process & automate deployment with github actions
 date: "2021-06-08T22:40:32.169Z"
 excerpt: In this post we will see how we can automate the deployment of any server process using `systemd` and github actions.
-tags: systemd, docker, github, automation
+tags: systemd,docker,github,automation
 coverImage: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hjsd3fuz2231tcq99t4a.jpg
 author:
   name: Lakhan Samani

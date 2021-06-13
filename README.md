@@ -1,6 +1,7 @@
 # Lakhan Samani's Profile & Blog
 
 # Tasks
-- [] Add basic version with markdown
+- [x] Add basic version with markdown
+- [x] Port older blog posts
 - [] Add google analytics
-- [] Port older blog posts
+- [] Add meta tags for SEO

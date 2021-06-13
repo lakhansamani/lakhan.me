@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router';
 import ErrorPage from 'next/error';
-import Head from 'next/head';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
@@ -8,7 +7,7 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { tomorrow } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import rehypeRaw from 'rehype-raw';
 
-import { getPostBySlug, getAllPosts } from '../../utils/posts';
+import { getPostBySlug, getAllPosts } from '../../lib/posts';
 import Layout from '../../components/Layout';
 import PostType from '../../types/post';
 
@@ -43,8 +42,16 @@ const Post = ({ post, morePosts, preview }: Props) => {
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
+
   return (
-    <Layout title={post.title}>
+    <Layout
+      title={post.title}
+      image={post.ogImage.url}
+      description={post.excerpt}
+      keywords={post.tags}
+      url={`/blog/${post.slug}`}
+      type="article"
+    >
       <h3>
         <Link href="/">← Lakhan Samani | Digital Garden</Link>
       </h3>
@@ -53,11 +60,6 @@ const Post = ({ post, morePosts, preview }: Props) => {
       ) : (
         <>
           <article className="blog">
-            <Head>
-              <title>{post.title}</title>
-              <meta property="og:image" content={post.ogImage.url} />
-              <meta name="description" content={post.excerpt} />
-            </Head>
             <h1>{post.title}</h1>
             {/** @ts-ignore */}
             <ReactMarkdown components={components} rehypePlugins={[rehypeRaw]}>
@@ -88,6 +90,7 @@ export async function getStaticProps({ params }: Params) {
     'ogImage',
     'coverImage',
     'excerpt',
+    'tags',
   ]);
 
   return {

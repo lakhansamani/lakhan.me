@@ -2,7 +2,7 @@
 title: How to use React Suspense and lazy for code splitting
 date: "2020-07-07T22:40:32.169Z"
 excerpt: How you can optimize suspended state for lazily loaded component.
-tags: reactjs, splitting, suspense, lazyload
+tags: reactjs,splitting,suspense,lazyload
 author:
   name: Lakhan Samani
   picture: '/images/profile.jpg'
