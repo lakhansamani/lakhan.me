@@ -132,14 +132,71 @@ a {
   color: var(--base0D);
 }
 
-.profile {
-  max-width: 500px;
-  margin: 2rem auto;
+main {
+  max-width: 600px;
+  font-size: 1rem;
+  line-height: 1.5;
+  word-wrap: break-word;
+  padding: 1rem;
+  margin: auto;
 }
 
-.profile img {
-  float: left;
-  width: 100px;
-  height: 100px;
-  margin-right: 1rem;
+hr {
+  height: 1px;
+  margin: 2rem 0;
+  padding: 0;
+  background-color: var(--base02);
+  border: 0;
+}
+
+.post {
+  margin: 2rem 0px;
+  list-style: none;
+}
+
+.post a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.meta {
+  color: var(--base04);
+}
+
+.blog p {
+  margin: 1rem 0px;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  text-align: justify;
+}
+
+.blog h1,
+.blog h2,
+.blog h3,
+.blog h4,
+.blog h5,
+.blog h6 {
+  margin: 1rem 0px;
+}
+
+.inline-code {
+  background: var(--base02);
+  color: var(--base07);
+  padding: 2px 5px;
+}
+
+blockquote {
+  background: var(--base01);
+  border-left: 10px solid var(--base03);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+blockquote p {
+  display: inline;
+  font-style: italic;
 }
