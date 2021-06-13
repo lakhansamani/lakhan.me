@@ -5,5 +5,5 @@
 - [x] Port older blog posts
 - [x] Add google analytics
 - [x] Add meta tags for SEO
-- [] Add rss feed
-- [] Add manifest.json (Not required atm, use when we want PWA)
+- [ ] Add rss feed
+- [ ] Add manifest.json (Not required atm, use when we want do PWA)

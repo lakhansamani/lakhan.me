@@ -18,7 +18,7 @@ const defaultUrl = 'https://lakhan.me';
 const Layout = ({
   children,
   title = 'Lakhan Samani',
-  description = `Lakhan Samani | Software Engineer | Digital Work Space`,
+  description = `Lakhan Samani | Software Engineer | Digital Garden`,
   image = `/images/profile.jpg`,
   keywords = `lakhan, profile, digital garden`,
   url = `/`,
@@ -27,7 +27,7 @@ const Layout = ({
   <div>
     <Head>
       <title>{title}</title>
-      <link rel="icon" href="favicon.ico" />
+      <link rel="icon" href="/favicon.ico" />
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="description" content={description} />
