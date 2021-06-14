@@ -15,7 +15,9 @@ ogImage:
 
 In this blog post we will see how we can deploy a [NodeJS](https://nodejs.org/en/) server on linux machine and automate the deployment with github actions. But it is not only limited to NodeJS ideally you can deploy any daemon/long running processes using `systemd`.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n0iANH9n6aM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+<iframe frameborder="0" src="https://www.youtube.com/embed/n0iANH9n6aM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Let's get started!
 
