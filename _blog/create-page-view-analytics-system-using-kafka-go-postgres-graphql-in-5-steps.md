@@ -290,7 +290,7 @@ func (r *mutationResolver) RegisterKafkaEvent(ctx context.Context, event model.R
 - Test the event produced: `go build && ./producer`
 - Hit localhost:8080 in browser and test following mutation
 
-```
+```graphql
 mutation {
   register_kafka_event(event: {
     eventType: "PAGE_VIEW",
