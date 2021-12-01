@@ -1,41 +1,53 @@
+---
+title: Introducing Authorizer
+date: '2021-12-01T22:40:32.169Z'
+excerpt: Open source authentication and authorization solution
+tags: auth0, authentication, authorization, go, graphql, react, js
+author:
+  name: Lakhan Samani
+  picture: '/images/profile.jpg'
+ogImage:
+  url: '/images/profile.jpg'
+---
+
 [Authorizer](https://authorizer.dev/) is an open-source authentication and authorization solution for your applications. Bring your database and have complete control over the user information. You can self-host authorizer instance and connect to SQL databases like postgres, mysql, sqlite.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ksjsy0lbcspfcowoz09n.png)
 
 # Why you should consider using [Authorizer](https://authorizer.dev/) ❓
 
-✅ It is open source and free to use 😅
+✅  It is open source and free to use 😅
 
-✅ Supports role based authentication & Authorization
+✅  Supports role based authentication & Authorization
 
-✅ Supports secure session management with HTTP only Cookies & JWT tokens
+✅  Supports secure session management with HTTP only Cookies & JWT tokens
 
-✅ Supports multiple auth recipies
+✅  Supports multiple auth recipies
 
-- Social media login (Google, facebook, github, more to come)
+- Social media login (Google, Facebook, Github, more to come)
 - Basic login using email & password
-- Password less login via magic link
+- Passwordless login via the magic link
 
-✅ Supports database of your choice
+✅  Supports database of your choice
 
-✅ Supports multiple integrations and implementations
+✅  Supports multiple integrations and implementations
 
 - JS SDK that can be used in Backend (NodeJS) and Frontend
 - React Component Library for React specific projects
 - More to come soon...
 
-✅ Comes with Builtin Login Solution
+✅  Comes with Builtin Login Solution
 
 - A login page where you can directly redirect your users and get the login state in your web application using JS SDK
 
-✅ Comes with Multiple Deployment Options
+✅  Comes with Multiple Deployment Options
 
 - Docker
 - K8s
 - Heroku
 - Binaries
 
-✅ Supports custom scripting for advance use cases like modifying jwt token payload
+✅  Supports custom scripting for advance use cases like modifying jwt token payload
 ✍️ Developed using modern stack - GoLang with high performant [Gin Server].
 (https://github.com/gin-gonic/gin) - Exposes GraphQL API
 
@@ -59,6 +71,6 @@
 <iframe frameborder="0" src="https://www.youtube.com/embed/2aOTuwkfYvM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Please share your feedback, issues on [discord](https://discord.gg/bSPgHKZR) or [github](https://github.com/authorizerdev/authorizer).
+Please share your feedback, issues on [discord](https://discord.gg/bSPgHKZR) or [Github](https://github.com/authorizerdev/authorizer).
 
-Also don't forget to share the love for [authorizer](https://github.com/authorizerdev/authorizer) by adding star to github projects!
+Also, don't forget to share the love for [authorizer](https://github.com/authorizerdev/authorizer) by adding a star to [Github](https://github.com/authorizerdev/authorizer) projects!
