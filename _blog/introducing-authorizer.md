@@ -18,11 +18,11 @@ ogImage:
 
 ✅  It is open source and free to use 😅
 
-✅  Supports role based authentication & Authorization
+✅  Supports role-based authentication & Authorization
 
 ✅  Supports secure session management with HTTP only Cookies & JWT tokens
 
-✅  Supports multiple auth recipies
+✅  Supports multiple auth recipes
 
 - Social media login (Google, Facebook, Github, more to come)
 - Basic login using email & password
@@ -32,8 +32,8 @@ ogImage:
 
 ✅  Supports multiple integrations and implementations
 
-- JS SDK that can be used in Backend (NodeJS) and Frontend
-- React Component Library for React specific projects
+- [JS SDK](https://docs.authorizer.dev/authorizer-js/getting-started/) that can be used in Backend (NodeJS) and Frontend
+- [React Component Library](https://docs.authorizer.dev/authorizer-react/getting-started/) for React specific projects
 - More to come soon...
 
 ✅  Comes with Builtin Login Solution
@@ -42,14 +42,16 @@ ogImage:
 
 ✅  Comes with Multiple Deployment Options
 
-- Docker
-- K8s
-- Heroku
-- Binaries
+- [Heroku](https://docs.authorizer.dev/deployment/heroku/)
+- [Kubernetes](https://docs.authorizer.dev/deployment/kubernetes/)
+- [Binaries](https://docs.authorizer.dev/deployment/binary/)
 
-✅  Supports custom scripting for advance use cases like modifying jwt token payload
-✍️ Developed using modern stack - GoLang with high performant [Gin Server].
-(https://github.com/gin-gonic/gin) - Exposes GraphQL API
+✅  Supports custom scripting for advanced use cases like modifying JWT token payload
+
+✅  Developed using modern stack
+
+- GoLang with high performant [Gin Server](https://github.com/gin-gonic/gin)
+- Exposes GraphQL API
 
 ## Check how it works!
 
@@ -59,11 +61,11 @@ ogImage:
 
 ## Motivation behind [Authorizer](https://authorizer.dev)
 
-- Din't want to implement the same logic again and again
-- Needed single source of data. If I use 3rd party services user data might be at different place and application data might be at different place.
-- Din't want to pay for services like [auth0](https://auth0.com/) based on user count. This model is painful as application scales.
-- Needed authorization service always running as it can add more latency if implemented with serverless architecture, which will put service to sleep when not used. Also it can come with complexity of more open db connections as app scales
-- Needed a graphical representation of user data, that is the reason I used GraphQL which will help us link user information with other application data and generate the linked graph (Helpful when application is using GraphQL under the hood)
+- Didn't want to implement the same logic again and again
+- Needed single source of data. If I use 3rd party services user data might be at different places and application data might be at a different place.
+- Didn't want to pay for services like [auth0](https://auth0.com/) based on user count. This model is painful as application scales.
+- Needed authorization service always running as it can add more latency if implemented with serverless architecture, which will put service to sleep when not used. Also, it can come with the complexity of more open DB connections as the app scales
+- Needed a graphical representation of user data, that is the reason I used GraphQL which will help us link user information with other application data and generate the linked graph (Helpful when the application is using GraphQL under the hood)
 
 ## Check how you can integrate this with React Application
 
