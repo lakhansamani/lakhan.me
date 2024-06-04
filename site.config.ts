@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Lakhan Samani',
 
   // open graph metadata (optional)
-  description: `Lakhan Samani's personal space on internet `,
+  description: `Lakhan Samani | Building things on the internet. Teaching tech in depth. Building business, courses, products, and communities. Articles and courses to help you launch, grow, and monetize your online business`,
 
   // social usernames (optional)
   twitter: 'lakhansamani',
