@@ -21,6 +21,7 @@ Hey I’m Lakhan Samani from India 🇮🇳. I love building solutions and enjoy
 
 ### Experiences
 
+- Cloud Software Engineer ArangoDB
 - Lead Software Engineer for The Contentment Foundation
 - Senior Software Engineer for Appbase.io
 - Full-stack Developer at Star of Service
