@@ -7,8 +7,10 @@ Hey I’m Lakhan Samani from India 🇮🇳. I love building solutions and enjoy
 
 ### What I’m Doing now
 
+- Working as remote software engineer
+- Provide software consultancy and development services
 - I’m the creator and maintainer of [authorizer.dev](http://authorizer.dev), a database independent open-source authentication and authorization solution.
-- Working as independent contractor [The Contentment Foundation, ArangoDB, TTPro]
+
 
 ### Some Popular OSS Projects
 
@@ -21,8 +23,10 @@ Hey I’m Lakhan Samani from India 🇮🇳. I love building solutions and enjoy
 
 ### Experiences
 
+- Software Engineer Deepup.ai <i>(Currently)</i>
+- Lead Software Engineer for The Contentment Foundation <i>(Currently)</i>
+- TTPro (https://ttpro.in)
 - Cloud Software Engineer ArangoDB
-- Lead Software Engineer for The Contentment Foundation
 - Senior Software Engineer for Appbase.io
 - Full-stack Developer at Star of Service
 - Software Engineer at Sleeker
