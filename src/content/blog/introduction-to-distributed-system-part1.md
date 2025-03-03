@@ -98,7 +98,7 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 ### 2️⃣ Create the Project Structure
 Run the following to set up the project:
 
-> Note: please replace github.com/lakhansamani with your username user.
+> Note: please replace github.com/lakhansamani with your github or go package URL.
 
 ```sh
 mkdir ecom-grpc
