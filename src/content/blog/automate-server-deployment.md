@@ -3,7 +3,7 @@ author: Lakhan Samani
 pubDatetime: 2021-06-9T15:22:00Z
 title: Run HTTP Server as systemd process and automate it with github actions
 slug: automate-server-deployment
-featured: true
+featured: false
 draft: false
 tags:
   - Node.js
