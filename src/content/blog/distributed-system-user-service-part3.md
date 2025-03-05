@@ -1,6 +1,6 @@
 ---
 author: Lakhan Samani
-pubDatetime: 2025-03-04T12:00:00Z
+pubDatetime: 2025-03-05T12:00:00Z
 title: Implementing User Service with gRPC and PostgreSQL - Part 3
 slug: implementing-userd-part-3
 featured: true
@@ -32,12 +32,14 @@ tags:
 description: Learn distributed application api implementation
 ---
 
-This post walks through implementing a **User Service** in Go using **gRPC** with **PostgreSQL** as the database. The service provides user authentication with JWT-based authentication. The implementation includes:
+In [Part 2](https://www.lakhan.me/posts/distributed-system-api-definition-part-2/) we introduced apis for User service, this post walks through implementing a **User Service** in Go using **gRPC** with **PostgreSQL** as the database. The service provides user authentication with JWT-based authentication. The implementation includes:
 
 - gRPC service definition
 - Database integration using GORM
 - JWT-based authentication
 - A structured service layer
+
+> Note: Please replace the github user name and repo in each of the following folder
 
 ## Project Structure
 
@@ -533,6 +535,16 @@ go run main.go
 ```
 
 Now, your **User Service** is live with **gRPC, PostgreSQL, and JWT authentication**! 🚀
+
+You can try following commands with correct `.proto` file path
+
+```
+grpcurl -plaintext -d '{ "name": "John Doe", "email": "john@example.com", "password": "securepass" }' -proto=apis/user/v1/user.proto localhost:50051 user.v1.UserService/Register
+
+grpcurl -plaintext -d '{ "email": "john@example.com", "password": "securepass" }' -proto=apis/user/v1/user.proto localhost:50051 user.v1.UserService/Login
+
+grpcurl -plaintext -H "authorization: bearer JWT_TOKEN" -proto=apis/user/v1/user.proto localhost:50051 user.v1.UserService/Me
+```
 
 ## Code Link
 
