@@ -1,7 +1,7 @@
 ---
 author: Lakhan Samani
 pubDatetime: 2025-03-05T12:00:00Z
-title: Implementing User Service with gRPC and PostgreSQL - Part 3
+title: Implementing User Service with Golang, gRPC and PostgreSQL - Part 3
 slug: implementing-userd-part-3
 featured: true
 draft: false
