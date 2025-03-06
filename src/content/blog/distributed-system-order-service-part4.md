@@ -444,6 +444,10 @@ grpcurl -plaintext -H "authorization: bearer JWT_TOKEN"  -d '{ "product": "book 
 grpcurl -plaintext -H "authorization: bearer JWT_TOKEN"  -d '{ "id": "ID"  }' -proto=apis/order/v1/order.proto localhost:50052 order.v1.OrderService/GetOrder
 ```
 
+## Code Link
+
+- [Github APIs repo](https://github.com/lakhansamani/ecom-grpc-orderd)
+
 ## Conclusion
 - Built an **Order Service** with authentication.
 - Used **gRPC metadata** for authorization.
