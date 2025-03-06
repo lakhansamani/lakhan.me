@@ -177,10 +177,8 @@ message Order {
 
 // CreateOrder request API
 message CreateOrderRequest {
-    string user_id = 1;
-    string product = 2;
-    int32 quantity = 3;
-    double price = 4;
+    string product = 1;
+    int32 quantity = 2;
 }
 
 // CreateOrder response API

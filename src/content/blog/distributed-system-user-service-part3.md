@@ -528,9 +528,17 @@ This file helps ignoring development files example .env in production build
 .env
 ```
 
+Here is `.env` file for local development
+
+```
+DB_URL=postgres://postgres:postgres@localhost:5432/userdb
+JWT_SECRET=secret
+```
+
 ### Running the Service
 ```sh
 docker run --name postgres-cluster -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
+docker exec -it postgres-cluster psql -U postgres -c "CREATE DATABASE userdb;"
 go run main.go
 ```
 
