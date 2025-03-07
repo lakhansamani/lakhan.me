@@ -37,7 +37,7 @@ description: Learn distributed application tracing
 
 ## Introduction
 
-In Part 4, we implemented the orderd service. In a distributed system, tracking what happens across multiple services is crucial. Logging provides insights into what occurred, while tracing helps follow a request's journey across services.
+In [Part 4](https://www.lakhan.me/posts/implementing-orderd-part-4/), we implemented the orderd service. In a distributed system, tracking what happens across multiple services is crucial. Logging provides insights into what occurred, while tracing helps follow a request's journey across services.
 
 In this post, we will set up distributed tracing in our e-commerce system [userd](https://github.com/lakhansamani/ecom-grpc-userd) and [orderd](https://github.com/lakhansamani/ecom-grpc-orderd) services using OpenTelemetry and Jaeger. This will help us visualize the flow of requests and debug performance bottlenecks.
 
