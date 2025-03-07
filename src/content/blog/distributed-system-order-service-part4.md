@@ -1,6 +1,6 @@
 ---
 author: Lakhan Samani
-pubDatetime: 2026-03-05T12:00:00Z
+pubDatetime: 2025-03-06T12:00:00Z
 title: Implementing Order Service with Golang, gRPC and PostgreSQL - Part 4
 slug: implementing-orderd-part-4
 featured: true
