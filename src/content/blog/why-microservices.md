@@ -3,7 +3,7 @@ author: Lakhan Samani
 pubDatetime: 2024-08-25T15:22:00Z
 title: Why Microservices Are Important Compared to Monolithic Architecture
 slug: why-microservices
-featured: true
+featured: false
 draft: false
 tags:
   - Microservices
