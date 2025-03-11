@@ -1,6 +1,6 @@
 ---
 author: Lakhan Samani
-pubDatetime: 2025-03-11T12:00:00Z
+pubDatetime: 2025-03-10T12:00:00Z
 title: Implementing monitoring and alerting for distributed system - Part 6
 slug: implementing-monitoring-and-alerting-part-6
 featured: true
@@ -32,6 +32,8 @@ tags:
   - tracing
   - logging
   - observability
+  - prometheus
+  - alertmanager
 description: Learn distributed application monitoring and alerting
 ---
 
