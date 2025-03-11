@@ -236,6 +236,51 @@ grpcConn, err := grpc.NewClient(
 userServiceClient := user.NewUserServiceClient(grpcConn)
 ```
 
+### Step 3: Define metrics for `orderd` services
+
+```go
+package service
+
+import "github.com/prometheus/client_golang/prometheus"
+
+const (
+	serviceName = "orderd"
+	component   = "service"
+
+	totalOrdersCreatedMetric = "total_orders"
+	totalFetchedOrdersMetric = "total_fetched_orders"
+
+	successResultLabel = "success"
+	failedResultLabel  = "failed"
+)
+
+var (
+	ordersCreatedMetrics = prometheus.NewCounterVec(prometheus.CounterOpts{
+		Namespace: serviceName,
+		Subsystem: component,
+		Name:      totalOrdersCreatedMetric,
+	}, []string{"result"})
+
+	ordersFetchedMetrics = prometheus.NewCounterVec(prometheus.CounterOpts{
+		Namespace: serviceName,
+		Subsystem: component,
+		Name:      totalFetchedOrdersMetric,
+	}, []string{"result", "order_id"})
+)
+```
+
+## Step 4: Example integration of metrics in api services
+
+```go
+resOrder, err := s.DBProvider.GetOrderById(ctx, orderID)
+if err != nil {
+    ordersFetchedMetrics.WithLabelValues(failedResultLabel, orderID).Inc()
+    return nil, err
+}
+
+ordersFetchedMetrics.WithLabelValues(successResultLabel, orderID).Inc()
+```
+
 ---
 
 ## Setting Up Prometheus
