@@ -358,7 +358,7 @@ For complete change log, pls check
 
 Conclusion
 
-We successfully added metrics and alerting to our distributed app
+We successfully added monitoring and alerting using prometheus metrics and alertmanager to our distributed app
 
 ## Next Steps:
 
