@@ -1,6 +1,6 @@
 ---
 author: Lakhan Samani
-pubDatetime: 2025-03-17T12:00:00Z
+pubDatetime: 2025-03-16T12:00:00Z
 title: Deploying Our Distributed System on Kubernetes with Kind - Part 7
 slug: deploying-distributed-system-k8s-part-7
 featured: true
@@ -36,7 +36,7 @@ tags:
 description: Learn deploying distributed systems using kubernetes and kind.
 ---
 
-In the previous blog posts, we designed and implemented a distributed system comprising **User Service (userd)** and **Order Service (orderd)** with observability using **OpenTelemetry**, **Jaeger**, **Prometheus**, and **Alertmanager**. In this final part, we'll deploy the entire system on **Kubernetes (Kind)** and demonstrate how it benefits distributed systems.
+In the previous blog posts, we designed and implemented a distributed system comprising **[User Service (users)](https://github.com/lakhansamani/ecom-grpc-userd)** and **[Order Service (ordered)](https://github.com/lakhansamani/ecom-grpc-orderd)** with observability using **OpenTelemetry**, **Jaeger**, **Prometheus**, and **Alertmanager**. In this final part, we'll deploy the entire system on **Kubernetes (Kind)** and demonstrate how it benefits distributed systems.
 
 ---
 
