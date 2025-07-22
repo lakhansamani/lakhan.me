@@ -39,6 +39,8 @@ Hey I’m Lakhan Samani from India 🇮🇳. I love building solutions and enjoy
 
 - Golang
 - Docker
+- AI Agents
+- MCP Servers
 - Kubernetes
 - Cloud Work: Gcloud | AWS | Azure
 - Javascript
