@@ -3,11 +3,13 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-Hey I’m Lakhan Samani from India 🇮🇳. I love building solutions and enjoy contributing to open-source. I have been working in industry since 2013, initially learned things and started working as freelancer with my college studies and then started with full time work since 2016. I live life with minimalist approach.
+Hey, I’m Lakhan Samani from India 🇮🇳.
+
+I’ve been building software since 2013 — starting as a freelancer during my college years, and moving into full-time roles in 2016. I enjoy building practical solutions and contributing to open source.I tend to keep things simple — both in code and in life — and follow a minimalist approach.
 
 ### What I’m Doing now
 
-- Working as remote software engineer
+- Working as remote senior software engineer for [Qdrant](https://qdrant.tech/)
 - Provide software consultancy and development services
 - I’m the creator and maintainer of [authorizer.dev](http://authorizer.dev), a database independent open-source authentication and authorization solution.
 
@@ -23,8 +25,9 @@ Hey I’m Lakhan Samani from India 🇮🇳. I love building solutions and enjoy
 
 ### Experiences
 
-- Software Engineer Deepup.ai <i>(Currently)</i>
-- Lead Software Engineer for The Contentment Foundation <i>(Currently)</i>
+- Senior Software Engineer [Qdrant](https://qdrant.tech/) <i> Currently</i>
+- Software Engineer Deepup.ai
+- Lead Software Engineer for The Contentment Foundation
 - TTPro (https://ttpro.in)
 - Cloud Software Engineer ArangoDB
 - Senior Software Engineer for Appbase.io
@@ -39,6 +42,7 @@ Hey I’m Lakhan Samani from India 🇮🇳. I love building solutions and enjoy
 
 - Golang
 - Docker
+- RAG
 - AI Agents
 - MCP Servers
 - Kubernetes
